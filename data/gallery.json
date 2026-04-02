@@ -1,0 +1,8 @@
+[
+  { "id": 1, "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600", "category": "Hair", "title": "Understanding PRP Therapy" },
+  { "id": 2, "image": "https://images.unsplash.com/photo-1559839734-2e6b01b671ec?q=80&w=600", "category": "Skin", "title": "Summer Skincare Routine" },
+  { "id": 3, "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600", "category": "Laser", "title": "Benefits of Laser Toning" },
+  { "id": 4, "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=600", "category": "Acne", "title": "Coping with Adult Acne" },
+  { "id": 5, "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600", "category": "Skin", "title": "Anti-Aging Breakthroughs" },
+  { "id": 6, "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=600", "category": "Hair", "title": "Causes of Sudden Hairfall" }
+]

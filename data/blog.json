@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=800",
+    "category": "SKIN CARE",
+    "date": "MARCH 15, 2024",
+    "title": "The Ultimate Guide to Chemical Peels",
+    "excerpt": "Discover how chemical peels can rejuvenate your skin, reduce fine lines, and treat acne scars effectively.",
+    "author": "Dr. Sarah Admin",
+    "slug": "chemical-peels-guide"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800",
+    "category": "HAIR LOSS",
+    "date": "FEBRUARY 28, 2024",
+    "title": "PRP vs. Hair Transplant: What's Right For You?",
+    "excerpt": "A detailed comparison of two popular hair restoration techniques to help you make an informed decision.",
+    "author": "Dr. John Doe",
+    "slug": "prp-vs-hair-transplant"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800",
+    "category": "LASER",
+    "date": "FEBRUARY 10, 2024",
+    "title": "Myths About Laser Hair Removal Debunked",
+    "excerpt": "We tackle the most common misconceptions about laser hair removal so you can step into summer confidently.",
+    "author": "Dr. Emily Smith",
+    "slug": "laser-hair-removal-myths"
+  }
+]

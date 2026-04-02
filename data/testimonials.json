@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Priya S.", "location": "Bengaluru", "rating": 5, "treatment": "Acne Treatment", "text": "The acne treatment here completely transformed my skin. The doctors were patient and the results are incredible.", "date": "2024-01-15" },
+  { "id": 2, "name": "Rahul M.", "location": "Bengaluru", "rating": 5, "treatment": "Hair Loss PRP", "text": "After years of struggling with hair loss, the PRP sessions finally gave me visible results. Highly recommend this clinic.", "date": "2024-02-20" },
+  { "id": 3, "name": "Deepa K.", "location": "Bengaluru", "rating": 5, "treatment": "Laser Hair Removal", "text": "Almost painless and very effective. The staff made me feel comfortable throughout the entire process.", "date": "2024-03-05" }
+]

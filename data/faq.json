@@ -1,0 +1,10 @@
+[
+  { "id": 1, "category": "Acne", "question": "What causes adult acne?", "answer": "Adult acne is primarily caused by hormonal fluctuations, stress, diet, and sometimes underlying medical conditions like PCOS." },
+  { "id": 2, "category": "Acne", "question": "How long does acne treatment take?", "answer": "Most treatments show initial improvements in 4-6 weeks, with clearer skin achieved in 3-4 months depending on severity." },
+  { "id": 3, "category": "Hair", "question": "What are the causes of hair fall?", "answer": "Genetics, nutritional deficiencies, stress, thyroid issues, and harsh chemical treatments are common causes." },
+  { "id": 4, "category": "Hair", "question": "Is PRP treatment effective for hair loss?", "answer": "Yes, PRP uses your own blood platelets to stimulate dormant hair follicles, proving highly effective for early stages of hair loss." },
+  { "id": 5, "category": "Laser", "question": "Does laser therapy hurt?", "answer": "Modern lasers use advanced cooling tech. You might feel a slight rubber-band snap sensation, but it's generally very tolerable." },
+  { "id": 6, "category": "Laser", "question": "How many laser sessions do I need?", "answer": "Typically 6-8 sessions spaced 4-6 weeks apart are needed for optimal, long-lasting results." },
+  { "id": 7, "category": "Skin", "question": "What is the best sunscreen for Indian skin?", "answer": "Look for a broad-spectrum, gel-based or matte finish sunscreen with at least SPF 30+ that doesn't leave a white cast." },
+  { "id": 8, "category": "Skin", "question": "How can I reduce dark spots?", "answer": "Treatments like chemical peels, laser toning, and prescribed topical creams like Vitamin C or Kojic acid can safely lighten pigmentation." }
+]

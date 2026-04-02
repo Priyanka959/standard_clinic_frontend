@@ -1,0 +1,6 @@
+[
+  { "id": 1, "slug": "cosmetic", "category": "YOUR APPEARANCE", "title": "Cosmetic", "description": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede.", "icon": "sparkles", "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800" },
+  { "id": 2, "slug": "moles-skin", "category": "SKIN PROBLEMS", "title": "Moles and Skin", "description": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede.", "icon": "shield", "image": "https://images.unsplash.com/photo-1559839734-2e6b01b671ec?q=80&w=800" },
+  { "id": 3, "slug": "medical", "category": "SKIN, HAIR AND NAIL", "title": "Medical", "description": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede.", "icon": "stethoscope", "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800" },
+  { "id": 4, "slug": "anti-aging", "category": "WRINKLES AND LINES", "title": "Anti Aging", "description": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede.", "icon": "star", "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=800" }
+]

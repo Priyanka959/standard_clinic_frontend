@@ -99,15 +99,16 @@ export default function BlogSection() {
         </motion.div>
 
         {/* ── Blog cards ────────────────────────────────────────────── */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.1 }}
-          className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-8"
-        >
-          {previewPosts.map((post) => (
-            <motion.div key={post.slug} variants={cardVariants}>
+        <div className="overflow-x-auto pb-8 -mx-6 px-6 lg:mx-0 lg:px-0 scrollbar-hide lg:overflow-visible">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.1 }}
+            className="flex lg:grid lg:grid-cols-3 gap-6 lg:gap-8 w-max lg:w-auto"
+          >
+            {previewPosts.map((post) => (
+              <motion.div key={post.slug} variants={cardVariants} className="w-[300px] lg:w-auto shrink-0 flex flex-col">
               {/*
                * THE FIX:
                * The ENTIRE card is a <Link href={`/blog/${post.slug}`}>
@@ -180,7 +181,7 @@ export default function BlogSection() {
 
                   {/* READ ARTICLE — now inside the Link so it works */}
                   <span
-                    className="flex items-center gap-1.5 text-xs uppercase tracking-widest
+                    className="flex items-center mt-auto pt-4 gap-1.5 text-xs uppercase tracking-widest
                                group-hover:gap-3 transition-all duration-300"
                     style={{ fontFamily: 'var(--font-body)', color: '#8B7355' }}
                   >
@@ -191,7 +192,8 @@ export default function BlogSection() {
               </Link>
             </motion.div>
           ))}
-        </motion.div>
+          </motion.div>
+        </div>
 
         {/* Mobile "View All" button (hidden on desktop, shown on mobile) */}
         <div className="sm:hidden text-center mt-10">

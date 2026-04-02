@@ -15,6 +15,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://standard-clinic-frontend.onrender.com'),
   title: 'Dr. Name | Best Dermatologist in Bengaluru',
   description: 'Expert skin care treatments in Bengaluru. Acne, Hair Loss, Laser Therapy, Anti-aging. Book your consultation today.',
 }

@@ -1,11 +1,11 @@
-import type { NextConfig } from 'next'
-import bundleAnalyzer from '@next/bundle-analyzer'
+/** @type {import('next').NextConfig} */
+const bundleAnalyzer = require('@next/bundle-analyzer');
 
 const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 })
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: 'export',
   distDir: 'out',
   compiler: { removeConsole: process.env.NODE_ENV === 'production' },
@@ -38,4 +38,5 @@ const nextConfig: NextConfig = {
     return config
   },
 }
-export default withBundleAnalyzer(nextConfig)
+
+module.exports = withBundleAnalyzer(nextConfig);
